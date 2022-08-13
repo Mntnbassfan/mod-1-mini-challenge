@@ -3,4 +3,22 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+/* nav bar */
+header {
+  height: 45px;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 8px solid lightseagreen;
+}
+
+/* nav bar links */
+nav {
+  margin: 0 30px;
+  padding: 30px;
 }
