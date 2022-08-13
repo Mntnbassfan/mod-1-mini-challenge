@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
-  color: white;
 }
 
 /* nav bar */
@@ -16,9 +15,30 @@ header {
   align-items: center;
   border-bottom: 8px solid lightseagreen;
 }
+#text-color {
+  color: green;
+}
 
 /* nav bar links */
 nav {
   margin: 0 30px;
   padding: 30px;
+}
+
+/* main section styling */
+.section-1 {
+  height: 370px;
+  border-bottom: 5px solid lightseagreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: darkgreen;
+}
+h1 {
+  font-size: 30px;
+}
+img {
+  height: 270px;
+  width: 270px;
 }
