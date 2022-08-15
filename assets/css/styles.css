@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
-  font-weight: bold;
 }
 
 /* nav bar */
@@ -24,8 +23,12 @@ header {
 nav {
   margin: 0 30px;
   padding: 30px;
+  color: white;
 }
-
+nav a {
+    color: white;
+    text-decoration: none;
+}
 /* main section styling */
 .section-1 {
   height: 370px;
@@ -71,4 +74,13 @@ form {
 /* footer section */
 footer {
   background-color: darkolivegreen;
+  height: 35px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 }
