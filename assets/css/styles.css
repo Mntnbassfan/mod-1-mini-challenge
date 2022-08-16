@@ -25,9 +25,15 @@ nav {
   padding: 30px;
 }
 nav a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 /* main section styling */
 .section-1 {
@@ -81,6 +87,4 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-}
-
 }
